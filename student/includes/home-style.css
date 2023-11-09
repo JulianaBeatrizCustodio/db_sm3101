@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Aligns items to left and right */
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.lost-item {
+    width: 360px;
+    height: 120px;
+    background-color: #E64848;
+    border: 2px solid #F5A31A;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.found-item {
+    width: 360px;
+    height: 120px;
+    background-color: #E64848;
+    border: 2px solid #F5A31A;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.activities {
+    width: 300px;
+    height: 290px;
+    background-color: #E64848;
+    border: 2px solid #F5A31A;
+    margin-top: 28px;
+    margin-right: 100px;
+}
+
+p {
+    font-size: larger;
+    font-family: 'canva sans', sans-serif;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
